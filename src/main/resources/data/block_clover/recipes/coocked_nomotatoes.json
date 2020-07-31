@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {"item": "block_clover:nomotatoes"},
+  "result": {"item":  "block_clover:coocked_nomotatoes"},
+  "experience": 2,
+  "cookingtime": 200
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {"item": "minecraft:iron_ingot"},
+  "result": {"item":  "block_clover:refined_iron"},
+  "experience": 2,
+  "cookingtime": 400
+}

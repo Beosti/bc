@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "block_clover:nomotatoes"
+  },
+  "result": "block_clover:coocked_nomotatoes",
+  "experience": 1.0,
+  "cookingtime": 100
+}

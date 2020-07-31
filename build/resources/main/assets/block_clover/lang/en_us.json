@@ -1,0 +1,17 @@
+{
+  "block.block_clover.firstblock": "the first block",
+  "itemGroup.tutorial": "Block clover",
+  "item.block_clover.yami": "yamis sword",
+  "item.block_clover.cloack": "magic knight cloack",
+  "item.block_clover.refined_iron": "refined iron",
+  "item.block_clover.fire_bat": "fire bat",
+  "item.block_clover.demon_dweller": "demon dweller",
+  "key.block_clover.spell": "Spell number 1",
+  "key.block_clover.spell1": "Spell number 2",
+  "item.block_clover.five_leaf": "five leaf grimoire",
+  "key.block_clover.category": "block_clover",
+  "item.block_clover.nomotatoes": "nomotatoes",
+  "item.block_clover.coocked_nomotatoes": "coocked nomotatoes",
+  "item.block_clover.artefact_healing": "artefact of health",
+  "item.block_clover.artefact_health_extra": "artefact of health"
+}

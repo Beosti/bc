@@ -1,0 +1,240 @@
+[31Jul2020 12:42:51.526] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.2.0, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\ilias\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[31Jul2020 12:42:51.532] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_221 by Oracle Corporation
+[31Jul2020 12:42:52.085] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[31Jul2020 12:42:53.821] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\ilias\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[31Jul2020 12:42:57.662] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[31Jul2020 12:43:15.727] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[31Jul2020 12:43:15.760] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[31Jul2020 12:43:17.526] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.2.0, for MC 1.14.4 with MCP 20190829.143755
+[31Jul2020 12:43:17.526] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.2.0 Initialized
+[31Jul2020 12:43:24.245] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[31Jul2020 12:43:24.393] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[31Jul2020 12:43:24.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [block_clover] Starting version check at http://myurl.me/
+[31Jul2020 12:43:25.607] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_221]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945) ~[?:1.8.0_221]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_221]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_221]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_221]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_221]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	... 3 more
+[31Jul2020 12:43:25.643] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[31Jul2020 12:43:26.423] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 28.2.0 Target: null
+[31Jul2020 12:43:28.510] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'examplemod:block/firstblock' referenced from: block_clover:firstblock#: java.io.FileNotFoundException: examplemod:models/block/firstblock.json
+[31Jul2020 12:43:29.619] [Server-Worker-5/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load block_clover:textures/mob_effect/nom.png : java.io.FileNotFoundException: block_clover:textures/mob_effect/nom.png
+[31Jul2020 12:43:29.663] [Server-Worker-5/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load block_clover:textures/mob_effect/curse.png : java.io.FileNotFoundException: block_clover:textures/mob_effect/curse.png
+[31Jul2020 12:43:29.677] [Server-Worker-5/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load block_clover:textures/mob_effect/health.png : java.io.FileNotFoundException: block_clover:textures/mob_effect/health.png
+[31Jul2020 12:43:31.062] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[31Jul2020 12:43:31.197] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[31Jul2020 12:43:31.198] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[31Jul2020 12:43:31.413] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
+[31Jul2020 12:43:32.278] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[31Jul2020 12:43:32.286] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[31Jul2020 12:43:32.291] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[31Jul2020 12:43:33.103] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[31Jul2020 12:43:37.076] [Client thread/INFO] [net.minecraft.world.storage.SaveFormat/]: Deleting level New World (5)
+[31Jul2020 12:43:37.076] [Client thread/INFO] [net.minecraft.world.storage.SaveFormat/]: Attempt 1...
+[31Jul2020 12:43:39.679] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Jul2020 12:43:39.680] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 12:43:39.681] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 12:43:39.682] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Jul2020 12:43:39.683] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 12:43:39.884] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[31Jul2020 12:43:39.884] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[31Jul2020 12:43:39.982] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World (5)\serverconfig\forge-server.toml is not correct. Correcting
+[31Jul2020 12:43:39.984] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to SimpleCommentedConfig:{}
+[31Jul2020 12:43:39.984] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to false
+[31Jul2020 12:43:39.984] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to false
+[31Jul2020 12:43:39.984] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to false
+[31Jul2020 12:43:39.984] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to 0.1
+[31Jul2020 12:43:39.984] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to 0.05
+[31Jul2020 12:43:39.984] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to true
+[31Jul2020 12:43:39.984] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to false
+[31Jul2020 12:43:39.984] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to 0
+[31Jul2020 12:43:39.985] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.clumpingThreshold was corrected from null to 64
+[31Jul2020 12:43:39.985] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to false
+[31Jul2020 12:43:40.065] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[31Jul2020 12:43:40.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack vanilla, loading it automatically
+[31Jul2020 12:43:40.478] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.2.0_mapped_snapshot_20190719-1.14.3-recomp.jar
+[31Jul2020 12:43:41.479] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[31Jul2020 12:43:43.290] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[31Jul2020 12:43:47.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[31Jul2020 12:43:47.432] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[31Jul2020 12:43:47.772] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[31Jul2020 12:43:48.260] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[31Jul2020 12:43:48.959] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[31Jul2020 12:43:49.282] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[31Jul2020 12:43:49.869] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[31Jul2020 12:43:50.260] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 8%
+[31Jul2020 12:43:50.767] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 8%
+[31Jul2020 12:43:51.315] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 8%
+[31Jul2020 12:43:51.765] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 15%
+[31Jul2020 12:43:52.256] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 15%
+[31Jul2020 12:43:52.791] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 18%
+[31Jul2020 12:43:53.289] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 18%
+[31Jul2020 12:43:53.764] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 25%
+[31Jul2020 12:43:54.286] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 25%
+[31Jul2020 12:43:54.763] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 31%
+[31Jul2020 12:43:55.900] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 34%
+[31Jul2020 12:43:55.900] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 34%
+[31Jul2020 12:43:56.473] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[31Jul2020 12:43:56.872] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 47%
+[31Jul2020 12:43:57.273] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 52%
+[31Jul2020 12:43:58.056] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 53%
+[31Jul2020 12:43:58.655] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 57%
+[31Jul2020 12:43:59.160] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 63%
+[31Jul2020 12:43:59.458] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 67%
+[31Jul2020 12:43:59.788] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 72%
+[31Jul2020 12:44:01.073] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 72%
+[31Jul2020 12:44:01.073] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 72%
+[31Jul2020 12:44:01.272] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
+[31Jul2020 12:44:01.789] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
+[31Jul2020 12:44:02.287] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 92%
+[31Jul2020 12:44:02.764] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
+[31Jul2020 12:44:03.145] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 15889 ms
+[31Jul2020 12:44:03.536] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[31Jul2020 12:44:03.537] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[31Jul2020 12:44:06.418] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[31Jul2020 12:44:06.622] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:abfe83a9] logged in with entity id 322 at (184.5, 66.0, 253.5)
+[31Jul2020 12:44:06.646] [Client thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[31Jul2020 12:44:06.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[31Jul2020 12:44:07.281] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[31Jul2020 12:44:07.396] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[31Jul2020 12:44:07.405] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Jul2020 12:44:07.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[31Jul2020 12:44:10.918] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4475ms or 89 ticks behind
+[31Jul2020 12:44:27.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[31Jul2020 12:44:27.350] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Survival Mode
+[31Jul2020 12:44:40.606] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 10 advancements
+[31Jul2020 12:45:01.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev fell out of the world
+[31Jul2020 12:45:01.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed Dev]
+[31Jul2020 12:45:01.291] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev fell out of the world
+[31Jul2020 12:45:01.292] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Killed Dev
+[31Jul2020 12:45:26.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 5 [artefact of health] to Dev]
+[31Jul2020 12:45:26.240] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gave 5 [artefact of health] to Dev
+[31Jul2020 12:45:28.143] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Jul2020 12:45:28.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[31Jul2020 12:45:29.390] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[31Jul2020 12:45:29.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[31Jul2020 12:45:29.396] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[31Jul2020 12:45:29.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31Jul2020 12:45:29.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[31Jul2020 12:45:29.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31Jul2020 12:45:29.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[31Jul2020 12:45:29.820] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (5)): All chunks are saved
+[31Jul2020 12:45:29.830] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (5)): All chunks are saved
+[31Jul2020 12:45:31.232] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Jul2020 12:45:31.234] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 12:45:31.236] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 12:45:31.238] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Jul2020 12:45:31.241] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 12:45:31.244] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[31Jul2020 12:45:31.244] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[31Jul2020 12:45:31.304] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[31Jul2020 12:45:31.312] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[31Jul2020 12:45:31.559] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.2.0_mapped_snapshot_20190719-1.14.3-recomp.jar
+[31Jul2020 12:45:32.607] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[31Jul2020 12:45:33.279] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[31Jul2020 12:45:33.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[31Jul2020 12:45:34.122] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[31Jul2020 12:45:34.122] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[31Jul2020 12:45:34.340] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 15%
+[31Jul2020 12:45:34.822] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[31Jul2020 12:45:35.347] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 92%
+[31Jul2020 12:45:35.689] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2369 ms
+[31Jul2020 12:45:35.938] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[31Jul2020 12:45:35.938] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[31Jul2020 12:45:36.008] [Netty Local Client IO #1/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[31Jul2020 12:45:36.028] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:69065b74] logged in with entity id 1577 at (171.1043491856638, 64.0, 250.61263935017487)
+[31Jul2020 12:45:36.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[31Jul2020 12:45:36.060] [Client thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[31Jul2020 12:45:36.140] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[31Jul2020 12:45:36.141] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Jul2020 12:45:36.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[31Jul2020 12:45:36.240] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 10 advancements
+[31Jul2020 12:45:41.693] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 17 advancements
+[31Jul2020 12:46:03.262] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Jul2020 12:46:03.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[31Jul2020 12:46:03.833] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[31Jul2020 12:46:03.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[31Jul2020 12:46:03.839] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[31Jul2020 12:46:03.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31Jul2020 12:46:03.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[31Jul2020 12:46:03.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31Jul2020 12:46:03.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[31Jul2020 12:46:04.291] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (5)): All chunks are saved
+[31Jul2020 12:46:04.301] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (5)): All chunks are saved
+[31Jul2020 12:46:05.721] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Jul2020 12:46:05.724] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 12:46:05.725] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 12:46:05.726] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[31Jul2020 12:46:05.728] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[31Jul2020 12:46:05.731] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[31Jul2020 12:46:05.731] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[31Jul2020 12:46:05.794] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[31Jul2020 12:46:05.799] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[31Jul2020 12:46:06.008] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.2.0_mapped_snapshot_20190719-1.14.3-recomp.jar
+[31Jul2020 12:46:07.002] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[31Jul2020 12:46:07.718] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[31Jul2020 12:46:07.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[31Jul2020 12:46:08.255] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[31Jul2020 12:46:08.255] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[31Jul2020 12:46:08.788] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[31Jul2020 12:46:09.279] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[31Jul2020 12:46:09.372] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1618 ms
+[31Jul2020 12:46:09.558] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[31Jul2020 12:46:09.558] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[31Jul2020 12:46:09.629] [Netty Local Client IO #2/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[31Jul2020 12:46:09.636] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:832c4da7] logged in with entity id 2128 at (152.18446382606479, 63.29602338356125, 246.1674871442303)
+[31Jul2020 12:46:09.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[31Jul2020 12:46:09.645] [Client thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[31Jul2020 12:46:09.735] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[31Jul2020 12:46:09.754] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Jul2020 12:46:09.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[31Jul2020 12:46:09.845] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 17 advancements
+[31Jul2020 12:46:16.103] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[31Jul2020 12:46:16.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[31Jul2020 12:46:16.717] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[31Jul2020 12:46:16.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[31Jul2020 12:46:16.723] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[31Jul2020 12:46:16.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31Jul2020 12:46:16.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[31Jul2020 12:46:16.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31Jul2020 12:46:16.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[31Jul2020 12:46:17.100] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (5)): All chunks are saved
+[31Jul2020 12:46:17.110] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (5)): All chunks are saved
+[31Jul2020 12:46:19.207] [Client thread/INFO] [net.minecraft.world.storage.SaveFormat/]: Deleting level New World (5)
+[31Jul2020 12:46:19.207] [Client thread/INFO] [net.minecraft.world.storage.SaveFormat/]: Attempt 1...
+[31Jul2020 12:46:19.237] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: com.electronwill.nightconfig.core.io.WritingException: An I/O error occured
+[31Jul2020 12:46:19.238] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:222)
+[31Jul2020 12:46:19.238] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202)
+[31Jul2020 12:46:19.238] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73)
+[31Jul2020 12:46:19.238] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85)
+[31Jul2020 12:46:19.238] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:93)
+[31Jul2020 12:46:19.238] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[31Jul2020 12:46:19.239] [Thread-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:635]: Caused by: java.nio.file.NoSuchFileException: .\saves\New World (5)\serverconfig\forge-server.toml
+[31Jul2020 12:46:19.239] [Thread-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:635]: 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+[31Jul2020 12:46:19.239] [Thread-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:635]: 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+[31Jul2020 12:46:19.239] [Thread-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:635]: 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+[31Jul2020 12:46:19.239] [Thread-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:635]: 	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+[31Jul2020 12:46:19.239] [Thread-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:635]: 	at java.nio.file.Files.newByteChannel(Files.java:361)
+[31Jul2020 12:46:19.239] [Thread-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:635]: 	at java.nio.file.Files.newByteChannel(Files.java:407)
+[31Jul2020 12:46:19.240] [Thread-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:635]: 	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+[31Jul2020 12:46:19.240] [Thread-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:635]: 	at java.nio.file.Files.newInputStream(Files.java:152)
+[31Jul2020 12:46:19.240] [Thread-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:635]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:218)
+[31Jul2020 12:46:19.240] [Thread-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:635]: 	... 5 more
+[31Jul2020 12:46:41.256] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

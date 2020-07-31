@@ -1,0 +1,27 @@
+{
+    "type":"minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "  S",
+        " I ",
+        "I  "
+    ],
+
+    "key":
+    {
+        "I":
+        {
+            "item": "block_clover:refined_iron"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+
+    "result":
+    {
+        "item":"block_clover:yami"
+    }
+}
